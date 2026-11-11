@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>梛合同会社｜おすすめ・記事・動画のご案内</title>
+<meta name="description" content="梛合同会社（沖縄・那覇）が毎日更新する、楽天のおすすめ商品・note の記事・『琉球戦隊マティダ』の動画をまとめたページです。">
+<meta name="theme-color" content="#16223a">
+<meta property="og:type" content="website"><meta property="og:title" content="梛合同会社｜おすすめ・記事・動画のご案内"><meta property="og:url" content="https://nagi-biz.github.io/links/"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@nagi_biz88">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* 棚のように、上から「今日のおすすめ → 楽天でみつけたもの → 読みもの → 動画」と並べる。片手で親指だけで追える1列 */
+:root{
+  --navy:#16223a; --navy-2:#22314f; --gold:#a8833f; --gold-l:#e8c98a; --leaf:#5e9e3a;
+  --bg:#f3f1ec; --card:#ffffff; --ink:#1b2333; --sub:#5d6678; --line:#e3ded2;
+  --f-head:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1527;--card:#162238;--ink:#eef1f6;--sub:#9aa6bb;--line:#2a3754;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);line-height:1.65;font-size:15px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:560px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left)) 40px max(16px,env(safe-area-inset-right))}
+header{background:var(--navy);color:#fff;padding:calc(28px + env(safe-area-inset-top)) 0 0;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;right:-60px;top:-40px;width:240px;height:240px;border-radius:50%;border:28px solid rgba(232,201,138,.07)}
+.id{display:flex;align-items:center;gap:14px;position:relative;z-index:1}
+.id img{width:54px;height:auto;flex:none}
+.id h1{margin:0;font-family:var(--f-head);font-size:26px;letter-spacing:.14em;line-height:1.2}
+.id h1 span{display:block;font-family:var(--f-body);font-size:11px;letter-spacing:.42em;color:var(--gold-l);font-weight:500;margin-top:4px}
+.tagline{margin:18px 0 0;font-size:14px;color:#d9dfeb;position:relative;z-index:1}
+.pr{margin:18px -100vw 0;padding:9px 100vw;background:var(--navy-2);border-top:2px solid var(--gold);font-size:12px;color:var(--gold-l)}
+.pr b{display:inline-block;border:1px solid var(--gold-l);border-radius:3px;padding:0 6px;margin-right:8px;font-size:11px}
+section{margin-top:28px}
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 2px 12px}
+.sh h2{margin:0;font-family:var(--f-head);font-size:20px;letter-spacing:.06em}
+.sh a{font-size:13px;color:var(--gold);font-weight:700;white-space:nowrap}
+.sh a::after{content:" ›"}
+.hero{display:block;background:var(--navy);color:#fff;border-radius:14px;padding:20px 20px 18px;position:relative;overflow:hidden;box-shadow:0 10px 24px rgba(22,34,58,.18)}
+.hero::before{content:"TODAY";position:absolute;right:16px;top:14px;font-size:11px;letter-spacing:.3em;color:var(--gold-l)}
+.hero small{display:block;font-size:12px;color:var(--gold-l);margin-bottom:6px}
+.hero b{display:block;font-family:var(--f-head);font-size:21px;line-height:1.45;padding-right:52px}
+.hero .go{display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:var(--gold-l);color:var(--navy);font-weight:700;font-size:14px;padding:9px 16px;border-radius:999px}
+.list{display:grid;gap:10px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 14px}
+.row b{font-weight:500;font-size:14px}
+.row small{color:var(--sub);font-size:12px;white-space:nowrap}
+.picks{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pick{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pick .ph{aspect-ratio:1200/630;background:var(--line);display:block}
+.pick .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.pick .pt{padding:9px 10px 11px;display:flex;flex-direction:column;gap:5px;flex:1}
+.pick .pt b{font-size:13px;font-weight:500;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pick .pt small{margin-top:auto;color:var(--sub);font-size:11px;display:flex;gap:6px;align-items:center}
+.pick .pt i{font-style:normal;color:var(--gold);font-weight:700}
+.reads{display:grid;gap:10px}
+.read{display:grid;grid-template-columns:112px 1fr;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;align-items:center}
+.read img{width:112px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px;display:block;background:var(--line)}
+.read b{font-size:14px;font-weight:700;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.read small{display:block;margin-top:4px;font-size:12px;color:var(--sub)}
+.read small em{font-style:normal;color:var(--gold);font-weight:700;margin-right:6px}
+.tv{display:grid;gap:12px}
+.ep{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ep .th{position:relative;display:block;aspect-ratio:16/9;background:#000}
+.ep .th img{width:100%;height:100%;object-fit:cover;display:block;opacity:.92}
+.ep .th::after{content:"";position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(22,34,58,.82) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l9 5-9 5z' fill='%23e8c98a'/%3E%3C/svg%3E") center/30px no-repeat;border:2px solid var(--gold-l)}
+.ep b{display:block;padding:11px 14px 13px;font-size:14px;font-weight:700}
+.tv .more{display:flex;gap:10px}
+.tv .more a{flex:1;text-align:center;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:11px 8px;font-size:13px;font-weight:700}
+.about{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;gap:10px}
+.about p{margin:0;font-size:13px;color:var(--sub)}
+.about .btns{display:flex;gap:10px;flex-wrap:wrap}
+.about .btns a{border:1px solid var(--navy);color:var(--navy);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:700}
+@media (prefers-color-scheme: dark){.about .btns a{border-color:var(--gold-l);color:var(--gold-l)}}
+footer{margin-top:28px;text-align:center;font-size:11px;color:var(--sub)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+@media (hover:hover){.pick:hover,.read:hover,.ep:hover,.row:hover{border-color:var(--gold)}}
+@media (max-width:360px){.read{grid-template-columns:90px 1fr}.read img{width:90px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="id"><img src="logo.png" alt="" width="54" height="66"><h1>梛合同会社<span>NAGI ・ OKINAWA</span></h1></div>
+    <p class="tagline">楽天で見つけたいいもの、仕事と暮らしに役立つ記事、沖縄のヒーロー動画を、毎日ここにまとめています。</p>
+    <p class="pr"><b>PR</b>このページのリンクには、アフィリエイト（広告）を含むものがあります。</p>
+  </div>
+</header>
+<main class="wrap">
+  <section aria-label="今日のおすすめ">
+    <a class="hero" href="https://nagi-biz.github.io/RakutenAutoShop/articles/2026-11-09-01/" rel="noopener sponsored" target="_blank"><small>楽天お買い物ラボ・11月9日更新</small><b>楽天ランキングTOP5｜Zoff福袋から訳ありさばまで注目5品</b><span class="go">ランキングを見る</span></a>
+  </section>
+  <section aria-labelledby="h-shop"><div class="sh"><h2 id="h-shop">楽天ランキング</h2><a href="https://nagi-biz.github.io/RakutenAutoShop/" target="_blank" rel="noopener">すべて見る</a></div>
+    <div class="list"><a class="row" href="https://nagi-biz.github.io/RakutenAutoShop/articles/2026-11-09-02/" rel="noopener sponsored" target="_blank"><b>時のオカリナから鮭まで注目5品</b><small>11月9日</small></a><a class="row" href="https://nagi-biz.github.io/RakutenAutoShop/articles/2026-11-09-03/" rel="noopener sponsored" target="_blank"><b>福袋美容液から快眠枕まで注目5品</b><small>11月9日</small></a><a class="row" href="https://nagi-biz.github.io/RakutenAutoShop/articles/2026-11-09-04/" rel="noopener sponsored" target="_blank"><b>炭酸水からまつ毛美容液まで注目5品</b><small>11月9日</small></a></div></section>
+  <section aria-labelledby="h-picks"><div class="sh"><h2 id="h-picks">楽天でみつけた、いいもの</h2><a href="https://note.com/vast_moraea6192" target="_blank" rel="noopener">もっと見る</a></div>
+    <div class="picks"><a class="pick" href="https://note.com/vast_moraea6192/n/n99f0b8086e87" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/334471737/rectangle_large_type_2_ed60b98bbe962b289ea77b6d0fe80f10.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>飾る前に置き場所を確認。Alsaceの150cmツリー</b><small><i>PR</i>11月10日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n53ae3fe82ff5" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/334467508/rectangle_large_type_2_4618709ad15845f46172d5dca52bba10.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>献立に合わせて味付けを。飯田商店の無塩・骨取りさば</b><small><i>PR</i>11月10日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n87356663817a" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/334464004/rectangle_large_type_2_04116937ae16bcb6c6a6ee40cfe16ba9.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>眼鏡の買い替え予定に合う？ Zoff福袋2027</b><small><i>PR</i>11月10日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/nff23d9ce2160" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/334460457/rectangle_large_type_2_c86d18b57cf2c0f7b657b704b379b1f5.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>中身を選ばない形式を楽しむ、おせち福袋2027</b><small><i>PR</i>11月10日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n70858cc23d58" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/334456781/rectangle_large_type_2_28b1c139a9f427ebb2566f785472d06b.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>飲むペースと置き場所から考える、OZA SODA 48本</b><small><i>PR</i>11月10日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n06e4546d5ab2" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/332151098/rectangle_large_type_2_be761170d1abc06b56930d3d843c3bad.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>小腹満たしのおやつに。芋國屋 干し芋（訳あり・1kg）</b><small><i>PR</i>10月28日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n75e95caf664c" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/332151946/rectangle_large_type_2_b1281adaff270f2bfe91870c4983f53a.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>お歳暮の準備に。豪華7種詰め合わせ 御歳暮セット</b><small><i>PR</i>10月27日</small></span></a><a class="pick" href="https://note.com/vast_moraea6192/n/n15c61fa66003" rel="noopener sponsored" target="_blank">
+      <span class="ph"><img src="https://assets.st-note.com/production/uploads/images/332152680/rectangle_large_type_2_d9c8ae91cd2f758b57c78c2925a012aa.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="320" height="168"></span>
+      <span class="pt"><b>少し早めの冬支度に。MOSMEE 電気毛布（掛け敷き両用・洗える）</b><small><i>PR</i>10月26日</small></span></a></div></section>
+  <section aria-labelledby="h-reads"><div class="sh"><h2 id="h-reads">仕事と暮らしの読みもの</h2><a href="https://note.com/vast_moraea6192" target="_blank" rel="noopener">note を見る</a></div>
+    <div class="reads"><a class="read" href="https://note.com/vast_moraea6192/n/n9b837a569759" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/334485716/rectangle_large_type_2_4aea4bf6e6cfede186f51bee27494d6d.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>副業を続けるか迷ったら、収入と時間を一枚に並べる</b><small><em>800円</em>note・11月10日</small></span></a><a class="read" href="https://note.com/vast_moraea6192/n/nd7f8d833142a" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/334481201/rectangle_large_type_2_4eb445b218cb6bf0b76fa60e6e53a915.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>AIに同じ説明を繰り返す前に、週次報告の材料を整える</b><small><em>980円</em>note・11月10日</small></span></a><a class="read" href="https://note.com/vast_moraea6192/n/nd4fb3a624fff" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/334476457/rectangle_large_type_2_bb2a0198e73745f89e31f23206dd4cdb.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>SNS投稿を増やす前に、問い合わせまでの道を点検する</b><small><em>980円</em>note・11月10日</small></span></a><a class="read" href="https://note.com/vast_moraea6192/n/n74367b48d218" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/327482527/rectangle_large_type_2_ab889f8bcf0dbab345c9bd342e4d2560.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>文章も画像も苦手…そんな人に向くAI副業、「聞き取り・整理」が得意な人への提案</b><small><em>394円</em>note・10月23日</small></span></a><a class="read" href="https://note.com/vast_moraea6192/n/nbe445aac6239" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/327479651/rectangle_large_type_2_18edfdc96ada1f82b18b32fc43458d92.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>毎日のきょうだい喧嘩、仲裁するだけで疲れる——公平に対応するための工夫</b><small><em>500円</em>note・10月23日</small></span></a><a class="read" href="https://note.com/vast_moraea6192/n/ncb01aea60595" target="_blank" rel="noopener"><img src="https://assets.st-note.com/production/uploads/images/327476978/rectangle_large_type_2_674699d0c99275bfecf03202f07ec894.png?fit=bounds&amp;quality=85&amp;width=1280" alt="" loading="lazy" width="112" height="59"><span><b>飲み会・外食が続く時期、ダイエットを崩さない選び方</b><small><em>500円</em>note・10月23日</small></span></a></div></section>
+  <section aria-labelledby="h-tv"><div class="sh"><h2 id="h-tv">琉球戦隊マティダ</h2><a href="https://www.youtube.com/channel/UCYO3rjbnedZQOfO8hKkIZrw?sub_confirmation=1" target="_blank" rel="noopener">チャンネル登録</a></div>
+    <div class="tv"><a class="ep" href="https://www.youtube.com/watch?v=FQ7vAFogR2I" target="_blank" rel="noopener"><span class="th"><img src="https://i.ytimg.com/vi/FQ7vAFogR2I/hqdefault.jpg" alt="" loading="lazy" width="480" height="270"></span><b>琉球戦隊マティダ 第2話「ひびけ！エイサーのリズム」</b></a>
+    <div class="more"><a href="https://www.youtube.com/watch?v=lEAsadFQ1iw" target="_blank" rel="noopener">第1話「五つの光、ひとつの力！」</a></div></div></section>
+  <section aria-labelledby="h-about"><div class="sh"><h2 id="h-about">梛合同会社について</h2></div>
+    <div class="about"><p>沖縄・那覇の会社です。電気代・通信費などのコスト削減と、お店の集客・売上アップを、ひとつの窓口でお手伝いしています。</p>
+    <div class="btns"><a href="https://nagi-biz.github.io/nagi-website/" target="_blank" rel="noopener">会社のホームページ</a><a href="https://x.com/nagi_biz88" target="_blank" rel="noopener">X（@nagi_biz88）</a></div></div></section>
+  <footer>11/11 22:09 更新 ・ © 梛合同会社</footer>
+</main>
+</body>
+</html>
